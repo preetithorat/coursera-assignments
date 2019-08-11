@@ -1,48 +1,47 @@
 * {
 	font-family: Georgia;
   	box-sizing: border-box;
+  	font-style: italic;
+  	width: auto;
+	height: auto;
 }
 
 #header {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	width: auto;
 	text-align: center;
 	font-size: 200%;
 }
 
-#Menu1{
+.menu{
 	border: 2px solid black;
-	width: 250px;
-	font-size: 15px;
-	background-color: lightgrey;
+	background-color: grey;
+	margin : 20px;
 }
 
-#Chicken {
-	padding: 10px 10px 10px 10px;
+.dish {
+	text-align: center;
+	font-size: 125%;
+	margin-left: 80%;
+  	padding: 5px;
+  	border-left: 2px solid black;
+  	border-bottom: 2px solid black;
+}
+
+#chicken.dish {
 	background: pink;
-	border: 2px red;
-	text-align: right;
-	font-size: 18px;
-
-}
-#Menu2{
-	border: 2px solid blue;
 }
 
-#Beef {
-	border: 2px;
-	border-color: black;
+.receipe{
+	padding: 10px;
+	font-size: 15px;
+}
+
+
+#beef.dish {
 	background: red;
-	text-align: left;
-}
-#Menu3{
-	border: 2px solid blue;
 }
 
-#Sushi {
-	border: 2px;
-	border-color: black;
-	background: red;
-	text-align: left;
+#sushi.dish {
+	background: yellow;
 }
