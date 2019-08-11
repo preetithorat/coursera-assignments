@@ -6,7 +6,8 @@
 
 body{
 	background-color: #93e000;
-	background-image: url("cooking.jpg");
+	/*Donwloaded image from internet*/
+	background-image: url("https://github.com/preetithorat93/coursera-assignments/blob/master/assignment2-solution/assignment2-css/cooking.jpg");
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment: fixed;
