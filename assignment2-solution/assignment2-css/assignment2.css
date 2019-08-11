@@ -38,23 +38,23 @@ p {
 
 #chicken.dish {
 	background: Pink;
+	clear: left;
 }
 
 
 #beef.dish {
 	background: Crimson;
+	clear: left;
 }
 
 #sushi.dish {
 	background: khaki;
+	clear: left;
 }
 
 
 /******* Desktop View ********/
 @media screen and (min-width: 992px){
-	.menuBox{
-		float: both;
-	}
 	#one{
 		width: 31.3%;
 	}
@@ -69,15 +69,15 @@ p {
 
 /******* Table View ********/
 @media (min-width: 768px) and (max-width: 991px){
-	.menuBox{
+	.mediaBox{
 		float: both;
 	}
 	#one{
-		width: 50%;
+		width: 47.9%;
 		float: left;
 	}
 	#two{
-		width: 50%;
+		width: 47.9%;
 		float: right;
 	}
 	#three{
