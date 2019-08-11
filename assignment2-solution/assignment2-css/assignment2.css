@@ -8,20 +8,22 @@
 	margin-bottom: 20px;
 	width: auto;
 	text-align: center;
-	color: #EF111F;
 	font-size: 200%;
 }
 
 #Menu1{
-	border: 2px solid blue;
-	width: 300px;
+	border: 2px solid black;
+	width: 250px;
+	font-size: 15px;
+	background-color: lightgrey;
 }
 
 #Chicken {
 	padding: 10px 10px 10px 10px;
 	background: pink;
-	border: 1px black;
+	border: 2px red;
 	text-align: right;
+	font-size: 18px;
 
 }
 #Menu2{
