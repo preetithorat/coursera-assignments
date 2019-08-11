@@ -28,20 +28,20 @@
   	border-bottom: 2px solid black;
 }
 
-#chicken.dish {
-	background: pink;
-}
-
 .receipe{
 	padding: 10px;
 	font-size: 15px;
 }
 
+#chicken.dish {
+	background: PeachPuff;
+}
+
 
 #beef.dish {
-	background: red;
+	background: maroon;
 }
 
 #sushi.dish {
-	background: yellow;
+	background: khaki;
 }
