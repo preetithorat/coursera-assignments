@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{ 
+	background-color: black;
+}
+
+#header-nav{
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+	height: 100px;
+}
+
+.navbar-header{
+}
+
+#logoImage{
+	/**got from internet*/
+	background: url('logo3.jpg');
+	background-repeat: no-repeat;
+	width: 98px;
+	height: 98px;
+	margin-top: 5px;
+	float: left;
+}
+
+.navbar-brand h1{
+	color: black; 
+	font-family: 'Pacifico', cursive;
+	margin: 10px 0px 30px 60px;
+	font-size: 50px;
+}
