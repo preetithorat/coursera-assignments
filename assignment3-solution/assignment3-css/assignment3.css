@@ -39,6 +39,7 @@ body{
 .navbar-brand {
   padding-top: 25px;
 }
+
 .navbar-brand h1{
 	color: black; 
 	font-family: 'Pacifico', cursive;
@@ -154,11 +155,12 @@ body{
 
 /**********Extra Small devices**********/
 @media (max-width: 479px) {
+#logoImage{
+  	visibility: hidden;
+  }
+
 #header-nav{
 	height: 80px;
-}
-.navbar-brand {
-    height: 70px;
 }
   .navbar-brand h1 { /* Restaurant name */
     font-size: 40px;
@@ -167,6 +169,8 @@ body{
 	width: 200px;
 	margin: 0 auto 20px auto;
 }
+
+#
 
 }
 
