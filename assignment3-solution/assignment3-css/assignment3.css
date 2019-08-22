@@ -111,10 +111,14 @@ body{
 
 /********** Medium devices only(ipad pro) **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+.content{
+	width: 400px;
+	margin: 0 auto 20px auto;
+}
 
 }
 
-/********** Small devices(Phones)**********/
+/********** Small devices(Mobile)**********/
 @media (max-width: 991px) {
   /* Header */
   /* Hidding the logo on phone */
@@ -127,7 +131,6 @@ body{
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 0;
-    font-size: 40px;
   }
 
   #collapsable-nav{
@@ -137,65 +140,10 @@ body{
   	font-size: 1.0em;
 }
   /* End Header */
+
+.content{
+	width: 300px;
+	margin: 0 auto 20px auto;
 }
-
-
-
-
-
-
-
-/******* Desktop View ********/
-@media (min-width: 992px){
-
-	#one{
-		width: 31%;
-	}
-	#two{
-		width: 31%;
-	}
-	#three{
-		width: 31%;
-	}
-}
-
-/******* Table View ********/
-@media (min-width: 768px) and (max-width: 991px){
-
-	#sushi.dish {
-	margin-left: 81%;
-	}
-	#one{
-		width: 46.5%;
-		float: left;
-	}
-	#two{
-		width: 46.5%;
-		float: right;
-	}
-	#three{
-		width: auto;
-		float: left;
-	}
-}
-
-/******* Mobile View ********/
-@media (max-width: 767px){
-
-	.dish {
-	margin-left: 70%;
-	}
-	#one{
-		width: auto;
-		height: auto;
-	}
-	#two{
-		width: auto;
-		height: auto;
-	}
-	#three{
-		width: auto;
-		height: auto;
-	}
 }
 
