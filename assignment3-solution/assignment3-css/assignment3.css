@@ -13,6 +13,7 @@ body{
 	color: black; 
 	font-family: 'Pacifico', cursive;
 	font-size: 16px;
+	font-weight: normal;
 }
 
 /* HEADER */
@@ -20,6 +21,10 @@ body{
 	background-color: white;
 	border-radius: 0;
 	border: 0;
+}
+
+#collapsable-nav{ 
+	padding: 0;
 }
 
 #logoImage{
@@ -38,10 +43,8 @@ body{
 	color: black; 
 	font-family: 'Pacifico', cursive;
 	font-size: 60px;
-	text-shadow: 1px 1px 1px #222;
 	margin-top: 0;
   	margin-bottom: 0;
-  	line-height: .75;
 }
 
 /*for removing the line below the text */
@@ -49,24 +52,150 @@ body{
 	text-decoration: none;
 }
 
+/*for the menu about and contact on the right */
 #nav-list {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 #nav-list a {
   color: black;
   text-align: center;
 }
-#nav-list a:hover {
+/*when we hover over the color will change*/
+#nav-list a:hover { 
   background: #E7E7E7;
 }
 #nav-list a span {
-  font-size: 1.8em;
+  font-size: 1.2em;
 }
 
+/*for the toggle button when we squze the browser */
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid black;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
+
+#title-menu{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.content{
+	font-size: 13px;
+	text-align: center;
+	color: white;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin: 20px;
+}
+
+.content div{
+	font-size: 35px;
+	padding: 20px 0 20px 0;
+}
+.content p{
+	font-size: 17px;
+	padding: 0 25px 20px 25px;
+	font-family: cursive;
+}
+
+  /* Responsive Design for nav header*/
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only(ipad pro) **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices(Phones)**********/
+@media (max-width: 991px) {
+  /* Header */
+  /* Hidding the logo on phone */
+  #logoImage{
+  	visibility: hidden;
+  }
+  .navbar-brand {
+    padding-top: 20px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 0;
+    font-size: 40px;
+  }
+
+  #collapsable-nav{
+  	font-size: 1.2em;
+}
+  #collapsable-nav a span{
+  	font-size: 1.0em;
+}
+  /* End Header */
+}
+
+
+
+
+
+
+
+/******* Desktop View ********/
+@media (min-width: 992px){
+
+	#one{
+		width: 31%;
+	}
+	#two{
+		width: 31%;
+	}
+	#three{
+		width: 31%;
+	}
+}
+
+/******* Table View ********/
+@media (min-width: 768px) and (max-width: 991px){
+
+	#sushi.dish {
+	margin-left: 81%;
+	}
+	#one{
+		width: 46.5%;
+		float: left;
+	}
+	#two{
+		width: 46.5%;
+		float: right;
+	}
+	#three{
+		width: auto;
+		float: left;
+	}
+}
+
+/******* Mobile View ********/
+@media (max-width: 767px){
+
+	.dish {
+	margin-left: 70%;
+	}
+	#one{
+		width: auto;
+		height: auto;
+	}
+	#two{
+		width: auto;
+		height: auto;
+	}
+	#three{
+		width: auto;
+		height: auto;
+	}
+}
+
