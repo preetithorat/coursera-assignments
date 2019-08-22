@@ -103,6 +103,11 @@ body{
 	font-family: cursive;
 }
 
+#toggle-button{
+	float: right;
+	margin-bottom: 30px;
+}
+
   /* Responsive Design for nav header*/
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -145,5 +150,23 @@ body{
 	width: 300px;
 	margin: 0 auto 20px auto;
 }
+}
+
+/**********Extra Small devices**********/
+@media (max-width: 479px) {
+#header-nav{
+	height: 80px;
+}
+.navbar-brand {
+    height: 70px;
+}
+  .navbar-brand h1 { /* Restaurant name */
+    font-size: 40px;
+  }
+.content{
+	width: 200px;
+	margin: 0 auto 20px auto;
+}
+
 }
 
