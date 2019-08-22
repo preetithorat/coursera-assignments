@@ -56,6 +56,27 @@ body{
 	text-decoration: none;
 }
 
+
+#collapsable-nav {
+  margin-top: 20px;
+  visibility: hidden;
+  text-align: center;
+}
+#collapsable-nav a{
+	color: black;
+	font-size: 16px;
+}
+
+#ncollapsable-nav a {
+  color: black;
+  text-align: center;
+}
+/*when we hover over the color will change*/
+#collapsable-nav a:hover { 
+  text-decoration: none;
+}
+
+
 /*for the menu, about and contact on the right */
 #nav-list {
   margin-top: 20px;
@@ -130,12 +151,14 @@ body{
 
 /********** Small devices(Mobile)**********/
 @media (max-width: 767px) {
-  /* Header */
-  /* Hidding the logo on phone */
-
 .content{
 	width: 300px;
 	margin: 0 auto 20px auto;
 }
+
+#collapsable-nav {
+  visibility: visible;
+}
+
 }
 
