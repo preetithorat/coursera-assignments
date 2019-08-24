@@ -46,7 +46,7 @@ body{
 .navbar-brand h1{
 	color: black; 
 	font-family: 'Pacifico', cursive;
-	font-size: 60px;
+	font-size: 50px;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -116,9 +116,10 @@ body{
 	border: 1px solid white;
 	border-radius: 25px;
 	margin: 20px;
+	border-spacing: 10px;
 }
 
-.content div{
+.content section{
 	font-size: 35px;
 	padding: 20px 0 20px 0;
 }
