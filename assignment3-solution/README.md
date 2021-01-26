@@ -5,4 +5,4 @@ The design will change in each layout.
 
 
 You can check the final output with the following link:
-https://preetithorat93.github.io/coursera-assignments/assignment3-solution/
+https://preetithorat.github.io/coursera-assignments/assignment3-solution/
